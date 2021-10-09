@@ -1,0 +1,22 @@
+<form action="/admin/authorize" method="get" id="form">
+</form>
+<script>
+//var request = new Request('/admin/authorize', { --}}
+//  method: 'GET',
+//});
+//fetch(request).then(function(response) {
+//  return response.rel
+//}).then(function(text) {
+//  console.log(text);
+//}); --}}
+window.onload = function(){
+  document.forms['form'].submit(
+  );
+}
+</script>
+<h1>THis is Dashboard</h1>
+<p>{{token}}</p>
+<p>{{admin}}</p>
+<form action="/admin/signout" method="GET">
+<button type="submit">Signout</button>
+</form>
